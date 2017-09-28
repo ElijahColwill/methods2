@@ -89,6 +89,10 @@ end
 
 # TODO - write first_last_six?
 
+def first_last_six?(list)
+	return list[0] == 6 || list[-1] == 6
+end
+
 # TODO - write rotate_left
 
 # TODO - write double23?
