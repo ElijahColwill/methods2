@@ -62,6 +62,10 @@ end
 
 # TODO - write in_order?
 
+def in_order?(a, b, c, bOK)
+	return (b > a and c > b) || (c > b and bOK)
+end
+
 # TODO - write less_by_ten?
 
 # TODO - write fizz_string
