@@ -68,6 +68,10 @@ end
 
 # TODO - write less_by_ten?
 
+def less_by_ten?(a, b, c)
+	return a - b >= 10 || a - c >= 10 || b - a >= 10 || b - c >= 10 || c - a >= 10 || c-b >= 10
+end
+
 # TODO - write fizz_string
 
 # TODO - write first_last_six?
