@@ -2,7 +2,7 @@
 #
 # gem 'minitest'
 # gem 'minitest-reporters'
-require './testing/test_setup'
+require './test_setup'
 require './methods2'
 
 describe 'methods2' do

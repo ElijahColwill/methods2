@@ -16,6 +16,10 @@
 
 
 # TODO - write elevenish?
+
+def elevenish?(n)
+	return (n.abs % 11 == 0) || (n.abs % 11 == 1)
+end
 	
 # TODO - write ice_cream_party?
 
